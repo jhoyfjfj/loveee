@@ -1,1 +1,63 @@
-# loveee
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To My Love</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #ffdde1, #ee9ca7);
+      font-family: 'Courier New', monospace;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #fff0f5;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 40px;
+      animation: beat 1s infinite;
+      color: pink;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>💻 To My Love ❤️</h1>
+    <p>
+      You are the <strong>source code</strong> to my happiness,<br>
+      the <strong>function</strong> that makes my heart run,<br>
+      and the <strong>bug</strong> I never want to fix.
+    </p>
+    <p style="margin-top: 20px; font-style: italic;">Love you forever.</p>
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
